@@ -82,6 +82,12 @@ function draw() {
 
   fill(rgb(135, 205, 236));
 
+  background("skyblue");
+  textSize(30);
+  fill('purple');
+  textFont("Broadway");
+  text("Drag the Hexagonal Stone and Release it!!",100,30);
+
   block1.display();
   block2.display();
   block3.display();
